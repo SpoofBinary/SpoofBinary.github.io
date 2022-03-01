@@ -27,6 +27,9 @@ a {
     text-align: center;
     display: block;
     margin: auto;
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
 }
 
 html {
