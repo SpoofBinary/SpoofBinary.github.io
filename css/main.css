@@ -1,12 +1,16 @@
 /* Fonts */
 @font-face {
     font-family: JetBrainsMono-Bold;
-    src: url("/fonts/JetBrainsMono-Bold.ttf");
+    src: url("../../fonts/JetBrainsMono-Bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
     font-family: JetBrainsMono-Regular;
-    src: url("/fonts/JetBrainsMono-Regular.ttf");
+    src: url("../../fonts/JetBrainsMono-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
