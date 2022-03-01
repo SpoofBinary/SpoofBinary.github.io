@@ -1,13 +1,14 @@
 /* Fonts */
 @font-face {
-    font-family: Roboto;
-    src: url("../fonts/Roboto-Regular.ttf");
+    font-family: JetBrainsMono-Bold;
+    src: url("/home/phoon/Desktop/@_Main/fonts/JetBrainsMono-Bold.ttf");
 }
 
 @font-face {
-    font-family: Roboto-Light;
-    src: url("../fonts/Roboto-Light.ttf");
+    font-family: JetBrainsMono-Regular;
+    src: url("/home/phoon/Desktop/@_Main/fonts/JetBrainsMono-Regular.ttf");
 }
+
 
 /* Animations */
 @keyframes fade-in {
@@ -54,7 +55,7 @@ body {
 main {
     animation-duration: 1s;
     animation-name: fade-in;
-    font-family: Roboto-Light, sans-serif;
+    font-family: JetBrainsMono-Regular, sans-serif;
     margin: auto;
     width: 100%;
 }
@@ -72,9 +73,10 @@ main {
 }
 
 .link-section-title {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
+    text-align: center;
 }
 
 .link-list {
@@ -91,6 +93,7 @@ main {
     margin: 1vh 0 1vh 0;
     text-align: center;
     width: 100%;
+    font-weight: bold;
 }
 
 .link-list-item:hover {
@@ -122,7 +125,7 @@ main {
 
 /* IDs */
 #clock {
-    font-family: Roboto;
+    font-family: JetBrainsMono-Bold;
 }
 
 #top-div {
