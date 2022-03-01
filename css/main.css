@@ -25,6 +25,8 @@ a {
     align-items: center;
     align-content: center;
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 html {
