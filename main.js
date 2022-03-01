@@ -76,3 +76,6 @@ document.addEventListener('keypress', (event) => {
         searchBarElement.focus();
     }
 });
+
+
+
